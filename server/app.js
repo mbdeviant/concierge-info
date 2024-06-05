@@ -4,6 +4,11 @@ const app = express();
 const port = 3000;
 
 app.use(express.static(path.join(__dirname, "..", "public")));
+app.use(express.json());
+
+app.get("/data", (req, res) => {
+  res.sendFile(path.join(__dirname, "data.json"));
+});
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
