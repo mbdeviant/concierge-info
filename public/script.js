@@ -14,11 +14,3 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-function log() {
-  console.log("Initial data:", data);
-  console.log(data[0].description[1]);
-
-  for (let i = 0; i < data.length; i++) {
-    console.log(data[i]);
-  }
-}
