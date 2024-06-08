@@ -43,5 +43,58 @@
       "Available everyday at 16:00 except Tuesday",
       "Transfer not included"
     ]
+  },
+  {
+    "title": "Fishing",
+    "description": [
+      "Everyday at 09:00-13:00 on a 8,5m Zodiac Boat",
+      "Soft drinks included",
+      "Goes to Güllük are. Swimming and fishing available.",
+      "Bringing hat,towels and sunscreen are recommended"
+    ]
+  },
+  {
+    "title": "Fethiye Tour",
+    "description": [
+      "Guests picked-up from hotels, times determined according to region. Depart from Bodrum is around at 06:30",
+      "A breakfast stop in Muğla.(Not included in the tour price, expenses during the break are extra)",
+      "After the break, destination is Fethiye",
+      "Butterfly Valley photoshooting, free time in Ölüdeniz, Saklıkent Canyon visit. Lunch are included in the tour price",
+      "Drinks and other expenses at lunch and free times are extra",
+      "Bringing swimwear, towels, sunglasses and sunscreen are recommended",
+      "On the way back, a break in Muğla again.",
+      "At the end of the tour, transport arrives to Bodrum around 20:00 and guests are taken back to their hotels",
+      "Changes may occur in the given hours due to external factors"
+    ]
+  },
+  {
+    "title": "Ephesus Tour",
+    "description": [
+      "Guests picked-up from hotels, times determined according to region. Depart from Bodrum is around at 07:00",
+      "A breakfast stop in Bafa Lake. Not included in the tour price, expenses during the break are extra)",
+      "After the break, destination is Ephesus",
+      "Ephesus ruins entrance, guided tour of Ephesus. Lunch are included in the tour price.",
+      "Drinks and other expenses at lunch and free times are extra",
+      "Bringing hats, sunglasses and sunscreen and are recommended",
+      "Visiting the Virgin Mary is not included in the tour price. Its an extra, upon the request of the guest.",
+      "Within the tour program, we have 2 separate facility-store visits - regional product promotion.",
+      "At the end of the tour, transport arrives to Bodrum around 20:00 and guests are taken back to their hotels",
+      "On the way back, a break in Muğla again.",
+      "Changes may occur in the given hours due to external factors"
+    ]
+  },
+  {
+    "title": "Dalyan Tour",
+    "description": [
+      "Guests picked-up from hotels, times determined according to region. Depart from Bodrum is around at 07:00",
+      "A breakfast stop in Muğla. Not included in the tour price, expenses during the break are extra)",
+      "After the break, destination is Dalyan",
+      "Mud bath with a guide, lunch, trail salt beach and a river tour by boat in Dalyan are included in the price.",
+      "Drinks and other expenses at lunch and free times are extra",
+      "Bringing swimwear, sunglasses,towel and sunscreen and are recommended",
+      "On the way back, a break in Muğla again.",
+      "At the end of the tour, transport arrives to Bodrum around 20:00 and guests are taken back to their hotels",
+      "Changes may occur in the given hours due to external factors"
+    ]
   }
 ]
