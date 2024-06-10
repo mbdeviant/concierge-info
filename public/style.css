@@ -1,6 +1,15 @@
 * {
-  background-color: dimgrey;
+  background-color: #f3f7ec;
   text-align: center;
+}
+
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-family: sans-serif;
 }
 
 ul {
