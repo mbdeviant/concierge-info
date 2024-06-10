@@ -21,6 +21,7 @@ function appendData() {
     const tourItem = document.createElement("div");
 
     const itemName = data[key].title.split(" ")[0].toLowerCase();
+    tourItem.classList.add("item");
     tourItem.classList.add(itemName);
 
     const itemTitle = document.createElement("h2");
