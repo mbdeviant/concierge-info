@@ -10,7 +10,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: Arial, Helvetica, sans-serif;
   background: transparent;
 }
@@ -72,4 +73,23 @@ ul {
 }
 .dalyan {
   background-image: url("./assets/dalyan.png");
+}
+
+footer {
+  background-image: url(./assets/pexels-mikhail-nilov.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  border-radius: 12px;
+  padding: 15px 30px 60px;
+  margin-top: 25px;
+}
+
+footer p {
+  margin: 0;
+  background: transparent;
 }
