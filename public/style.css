@@ -25,3 +25,27 @@ ul {
 .scuba {
   background-image: url("./assets/scuba.png");
 }
+.orak {
+  background-image: url("./assets/boat-standart.png");
+}
+.private {
+  background-image: url("./assets/boat-private.png");
+}
+.buggy {
+  background-image: url("./assets/buggy.png");
+}
+.dolphin {
+  background-image: url("./assets/dolphin.png");
+}
+.fishing {
+  background-image: url("./assets/fishing.png");
+}
+.fethiye {
+  background-image: url("./assets/fethiye.png");
+}
+.ephesus {
+  background-image: url("./assets/efes.png");
+}
+.dalyan {
+  background-image: url("./assets/dalyan.png");
+}
