@@ -1,7 +1,10 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const port = 3000;
+require("dotenv").config();
+
+const port = process.env.PORT || 3000;
+const IP = process.env.IP || "0.0.0.0";
 
 app.use(express.static(path.join(__dirname, "..", "public")));
 app.use(express.json());
@@ -15,6 +18,6 @@ app.use((err, req, res, next) => {
   res.status(500).send("not good");
 });
 
-app.listen(port, () => {
-  console.log(`server is running on http://localhost:${port}`);
+app.listen(port, IP, () => {
+  console.log(`Server is running on http://${IP}:${port}`);
 });
