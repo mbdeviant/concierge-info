@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     fetchedData.forEach((item) => {
       data.push(item);
     });
-  } catch {
+  } catch (error) {
     console.error("error fetching data", error);
   }
   appendData();
