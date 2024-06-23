@@ -19,25 +19,17 @@ app.use(express.json());
 // app.get("/data", (req, res) => {
 //   res.sendFile(path.join(__dirname, "data.json"));
 // });
-
-app.get("/data", (req, res) => {
-  const filePath = path.join(__dirname, "data.json");
-  fs.readFile(filePath, (err, data) => {
-    if (err) {
-      console.error(err);
-      return res.status(500).send("error reading data file");
-    }
-
-    try {
-      const jsonData = JSON.parse(data);
-      res.json(jsonData);
-    } catch (error) {
-      console.error("error parsing data", error);
-      res.status(500).send("error parsing data");
-    }
-  });
+app.get("/data", async (req, res) => {
+  try {
+    const filePath = path.join(__dirname, "data.json");
+    const data = await fs.promises.readFile(filePath, "utf-8");
+    const jsonData = JSON.parse(data);
+    res.json(jsonData);
+  } catch (error) {
+    console.error(err);
+    res.status(500).send("error parsing data");
+  }
 });
-
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send("not good");
