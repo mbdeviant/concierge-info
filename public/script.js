@@ -2,7 +2,7 @@ const data = [];
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const res = await fetch("/data");
+    const res = await fetch("/data.json");
     const fetchedData = await res.json();
 
     fetchedData.forEach((item) => {
