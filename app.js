@@ -1,10 +1,17 @@
 const express = require("express");
 const path = require("path");
 const app = express();
+const cors = require("cors");
 require("dotenv").config();
 
 const port = process.env.port || 3000;
 
+const corsOptions = {
+  origin: "https://concierge-weld.vercel.app/",
+  methods: "GET",
+};
+
+app.use(cors(corsOptions));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 
