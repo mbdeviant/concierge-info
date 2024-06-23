@@ -16,20 +16,6 @@ app.use(cors(corsOptions));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 
-// app.get("/data", (req, res) => {
-//   res.sendFile(path.join(__dirname, "data.json"));
-// });
-// app.get("/data", async (req, res) => {
-//   try {
-//     const filePath = path.join(__dirname, "data.json");
-//     const data = await fs.promises.readFile(filePath, "utf-8");
-//     const jsonData = JSON.parse(data);
-//     res.json(jsonData);
-//   } catch (error) {
-//     console.error(err);
-//     res.status(500).send("error parsing data");
-//   }
-// });
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send("not good");
