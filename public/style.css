@@ -74,6 +74,9 @@ ul {
 .dalyan {
   background-image: url("./assets/dalyan.png");
 }
+.transport {
+  background-image: url("./assets/transport.jpg");
+}
 
 footer {
   background-image: url(./assets/pexels-mikhail-nilov.jpg);
